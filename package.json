@@ -1,6 +1,6 @@
 {
   "name": "biovalid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Modulo de validação de Biometria",
   "main": "biovalid.module.js",
   "scripts": {
