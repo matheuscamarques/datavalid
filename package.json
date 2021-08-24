@@ -1,0 +1,18 @@
+{
+  "name": "biovalid",
+  "version": "1.0.6",
+  "description": "Modulo de validação de Biometria",
+  "main": "biovalid.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "biovalid"
+  ],
+  "author": "Matheus de Camargo Marques",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "request": "^2.88.2"
+  }
+}

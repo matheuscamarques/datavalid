@@ -1,0 +1,24 @@
+
+const CARTEIRA_IDENTIDADE = 1
+const CARTEITA_PROFISSIONAL = 2
+const PASSAPORTE = 3
+const CARTEIRA_RESERVISTA = 4
+
+const DOCUMENTOS_TIPOS = [CARTEIRA_IDENTIDADE, CARTEITA_PROFISSIONAL, PASSAPORTE, CARTEIRA_RESERVISTA]
+const BRASIL_UFS = ['AC','AL','AM', 'AP','BA','CE','DF','ES','GO','MA','MG','MS','MT','PA','PB','PE','PI','PR','RJ','RN','RO','RR','RS','SC','SE','SP','TO']
+const SERPRO = 'https://gateway.apiserpro.serpro.gov.br'
+const ENDPOINT = SERPRO + '/datavalid/v2/validate/pf-face'
+const ENDPOINT_TOKEN = SERPRO + '/token'
+
+  method: 'POST',
+module.exports = {
+  CARTEIRA_IDENTIDADE,
+  CARTEITA_PROFISSIONAL,
+  PASSAPORTE,
+  CARTEIRA_RESERVISTA,
+  DOCUMENTOS_TIPOS,
+  BRASIL_UFS,
+  ENDPOINT,
+  ENDPOINT_TOKEN,
+  SERPRO
+}
